@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>${groupId}</groupId>
+    <artifactId>${artifactId}</artifactId>
+    <version>${version}</version>
+
+    <name>Coding Contest Configuration Archetype</name>
+    <description>This is a simple archetype to generate the required project for the CodingContest.
+        The configuration is based on my needs -- it is not a non-plus-ultra for everybody so use it with this in mind.</description>
+
+    <contributors>
+        <contributor>
+            <name>Gabor Laszlo Hajba</name>
+            <email>hajbag@gmail.com</email>
+            <organization>JaPy Szoftver Kft</organization>
+            <organizationUrl>http://japy.hu</organizationUrl>
+            <roles>
+                <role>Developer</role>
+            </roles>
+            <url>http://hahamo.biz</url>
+        </contributor>
+    </contributors>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.1</version>
+        </dependency>
+        <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+            <version>2.4</version>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>3.8.1</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+
+</project>
