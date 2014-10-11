@@ -1,14 +1,18 @@
 def dummy_message(foo):
-    return foo+"bar"
+    return foo + "bar"
+
 
 def do_level_1():
-	pass
+    pass
+
 
 def do_level_2():
-	pass
+    pass
+
 
 def do_level_3():
-	pass
+    pass
+
 
 def do_level_4():
-	pass
+    pass
