@@ -9,7 +9,7 @@ Prerequisites
 =============
 
 For Java
- * JDK (7 or 8, I prefer 8)
+ * JDK 8 because I use some functional programming in the code
 
 For Python
  * Python (2.7)
